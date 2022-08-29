@@ -1,1 +1,213 @@
-{"titleNameMap":{"educationList":"教育背景","workExpList":"工作经历","projectList":"项目经历","skillList":"个人技能","awardList":"更多信息","workList":"个人作品","aboutme":"自我介绍"},"avatar":{"hidden":false},"profile":{"name":"姓名","email":"736****86@qq.com","mobile":"156********","github":"https://github.com/visiky","zhihu":"https://zhihu.com/people/visiky","workExpYear":"","workPlace":"浙江杭州","positionTitle":"前端工程师"},"educationList":[{"edu_time":["2014.09.01","2018.06.30"],"school":"华南理工大学","major":"网络工程","academic_degree":"本科"}],"awardList":[],"workExpList":[{"company_name":"蚂蚁集团","department_name":"体验技术部","work_time":["2018.06",null],"work_desc":"","dataIndex":0},{"company_name":"蚂蚁金服","department_name":"大数据部","work_time":["2017.06","2017.12"],"work_desc":"前端实习生。使用 React 参与开发多类产品：数据研发平台、数据决策平台、数据分析平台的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。"},{"company_name":"数沃信息科技有限公司","department_name":"","work_time":["2017.03","2017.05"],"work_desc":"前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示"}],"skillList":[{"skill_name":"HTML 和 CSS","skill_desc":"","skill_level":89},{"skill_name":"TypeScript / JavaScript","skill_level":90},{"skill_name":"数据可视化","skill_desc":"丰富的可视化工程实践以及开源经验","skill_level":90},{"skill_name":"React / 前端工程化","skill_desc":"大型前端项目经验以及组件库开发经验","skill_level":80},{"skill_name":"GOlang","skill_level":95,"skill_desc":"Golang","dataIndex":4}],"projectList":[{"project_name":"数据作战室   福里斯","project_role":"前端负责人","project_time":"2019.04 - 2020.06","project_desc":"面向总裁和高管以及决策 BI 的数字化经营决策和管理协同产品。提供一站式的数据化经营决策和管理协同功能，让高管高效获取决策信息，并提升管理效率。","project_content":"1. 项目从0到1的框架设计和开发 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率","dataIndex":0},{"project_name":"DeepInsight","project_role":"可视分析负责人","project_time":"2018.07 - 2019.04 / 2020.07 - 至今","project_desc":"DeepInsight 是蚂蚁集团自主研发的自助式 BI 数据洞察分析平台，面向企业分析人员、业务人员和开发人员，帮助蚂蚁集团实现精细化运营。","project_content":"BI 平台工具核心部分是报表制作，也就是通过数据连接、可视化配置形成图表物料之后，通过拖拽方式进行页面编排，最终形成报表页面进行发布的过程。\n1. 主导开放能力建设，拉通产品、设计建设和扩展可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设(通用组件设计和开发经验丰富)、促进数据分析能力增强等可视化一体化建设"},{"project_name":"G2、G2Plot","project_role":"核心开发者","project_time":"2019 - 至今","project_desc":"G2 是基于图形语法理论的可视化渲染引擎，G2Plot 是在 G2 基础上封装的开箱即用的统计可视化图表库","project_content":"AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV 系列: AntV 官网、G 渲染引擎、 G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作。"},{"project_name":"aaaa","project_role":"owner","project_desc":"十多个水电费广东省法规的算法干撒搭嘎","project_content":"所发生的发生的发的所发生的高等师范根深蒂固3"}],"workList":[],"aboutme":{"aboutme_desc":"🌱 Focus on data visualization and analysis 😈 能力项：沟通协调能力、执行力\n    自驱型前端工程师，三年多大型复杂产品开发经验，负责蚂蚁集团 BI 产品 DeepInsight 的可视化建设，参与了从图表库到 BI 产品力的一体化建设，对商业智能领域的数据可视化建设有较为丰富的经验。\n    参与 AntV 团队开源项目 G2、G2Plot 的研发，目前是 G2Plot 的主要负责人。\n    "},"theme":{"color":"#2f5785","tagColor":"#8bc34a"}}
+{
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
+    },
+    "avatar": {
+        "hidden": true
+    },
+    "profile": {
+        "name": "姓名",
+        "email": "me@kaijun.wang",
+        "mobile": "18539293137",
+        "github": "",
+        "zhihu": "",
+        "workExpYear": "",
+        "workPlace": "上海",
+        "positionTitle": "Golang/Python工程师"
+    },
+    "educationList": [
+        {
+            "edu_time": [
+                "2007.09",
+                "2011.06"
+            ],
+            "school": "烟台大学",
+            "major": "国际经济与贸",
+            "academic_degree": "本科",
+            "dataIndex": 0
+        }
+    ],
+    "awardList": [
+        {
+            "award_info": "英语 CET6",
+            "award_time": "2015"
+        },
+        {
+            "award_info": "蚂蚁近卫军 卓越个人奖",
+            "award_time": "2018.09"
+        },
+        {
+            "award_info": "前端练习生 可视化讲师",
+            "award_time": "2020.10"
+        },
+        {
+            "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
+            "award_time": "2021.07"
+        }
+    ],
+    "workExpList": [
+        {
+            "company_name": "福里斯（Crypto.com）",
+            "department_name": "Feture Team",
+            "work_time": [
+                "2021.10",
+                "2022.07"
+            ],
+            "work_desc": ""
+        },
+        {
+            "company_name": "微盟（weimob.com）",
+            "department_name": "运维部",
+            "work_time": [
+                "2019.05",
+                "2021.10"
+            ],
+            "work_desc": ""
+        },
+        {
+            "work_time": [
+                "2018.03",
+                "2019.04"
+            ],
+            "company_name": "英语流利说（liulishuo.com）",
+            "department_name": "研发部",
+            "work_desc": "",
+            "dataIndex": 2
+        },
+        {
+            "work_time": [
+                "2016.02",
+                "2018.03"
+            ],
+            "company_name": "饿了么（ele.me）",
+            "department_name": "即时配送部",
+            "work_desc": "",
+            "dataIndex": 3
+        },
+        {
+            "work_time": [
+                "2014.04",
+                "2016.02"
+            ],
+            "company_name": "上海清鹤科技",
+            "department_name": "研发部",
+            "work_desc": "",
+            "dataIndex": 4
+        },
+        {
+            "work_time": [
+                "2012.01",
+                "2014.02"
+            ],
+            "company_name": "上海郑煤贸易",
+            "department_name": "交易部",
+            "work_desc": "",
+            "dataIndex": 5
+        }
+    ],
+    "skillList": [
+        {
+            "skill_name": "Python / Golang",
+            "skill_desc": "",
+            "skill_level": 90,
+            "dataIndex": 0
+        },
+        {
+            "skill_name": "微服务",
+            "skill_level": 90,
+            "skill_desc": ""
+        },
+        {
+            "skill_name": "kubernetes / Docker",
+            "skill_desc": "",
+            "skill_level": 80,
+            "dataIndex": 2
+        },
+        {
+            "skill_name": "Mysql / Redis",
+            "skill_level": 80,
+            "dataIndex": 1,
+            "skill_desc": ""
+        },
+        {
+            "skill_name": "Service Mesh",
+            "skill_level": 80,
+            "skill_desc": ""
+        },
+        {
+            "skill_name": "CI /CD 持续集成",
+            "skill_level": 80,
+            "skill_desc": "自动化打包，测试，发布，集群管理"
+        },
+        {
+            "skill_name": "ELK",
+            "skill_desc": "日志搜集系统",
+            "skill_level": 60,
+            "dataIndex": 3
+        },
+        {
+            "skill_name": "区块链交易",
+            "skill_level": 60,
+            "skill_desc": ""
+        }
+    ],
+    "projectList": [
+        {
+            "project_name": "福里斯",
+            "project_role": "核心开发者",
+            "project_time": "福里斯",
+            "project_desc": "1. Future Team内部的Ci/CD跟监控\n2.区块链交易后端接口\n",
+            "project_content": "\n1. Solana 链相关交易接口，监听block中用户相关的transaction并给用户推送交易通知\n2. 编写公司内部统一的脚手架库ncw-x，提供统一的http，log，web，DB等等公共库的初始化，管理，指标搜集等\n3.  基于CircleCI配置开发所用的CI环境，自定义docker image打包跟推送ECR镜像仓库，并部署到不同的环境\n4. 基于New Relic 平台搜集应用跟实例的各种指标并且设置dashboard跟告警（例如QPS,平均响应时间，状态码等指标）\n5.  基于Filebeat搜集日志并推送到Sumo Logic平台，以供开发查询日志\n6.  为Orm, Redis, Gin,Http client等库编写OpenTelemetry的第三方库\n",
+            "dataIndex": 0
+        },
+        {
+            "project_name": "自研网关",
+            "project_role": "核心开发者",
+            "project_time": "微盟",
+            "project_desc": "基于GO开发的Http代理网关",
+            "project_content": "\n1. 网关管理平台，接受应用上报的路由信息，对路由进行版本控制，在线管理，动态的配置下发路由信 息给网关\n2. 网关可接入多 k8s 集群，对外视为 1 个集群，可就近访问，负载均衡，熔断，自动重试\n3. 网关支持多个子环境路由，方便研发测试同学多分支同时开发测试\n4. 自研网关最主要是要接入 trace 系统 多环境发布系统"
+        },
+        {
+            "project_name": "自研发布平台开发",
+            "project_role": "核心开发者",
+            "project_time": "微盟",
+            "project_desc": "用于开发人员通过网页端，操作应用的打包，发布，路由管理，资源申请等功能",
+            "project_content": "\n1. 作为各种系统 api 前置管理平台，进行权限管理，资源申请后元数据(包括数据库，IP，EC2实例信息，域名，App开发信息等等)的记录，为后期各种功能的集成提供依托 \n2. 基于kubernetes的api 开发内部客制化发布系统，支持在web页面查看pod状况，使用的应用版本，pod操作，路由操作，web terminal等功能 \n3. 基于jenkins打包docker镜像，使用阿里云容器服务存储镜像用于下发部署并将公司的产品逐步从 docker 部署转换到自建 k8s 部署\n4. 逐步将app接入istio，探索service mesh已支持流量管理，灰度，多版本\n5. 维护公司的 ELK 集群"
+        },
+        {
+            "project_name": "Performance",
+            "project_role": "项目Owner",
+            "project_desc": "用户学习数据上传伪实时计算平台",
+            "project_time": "英语流利说",
+            "project_content": "\n优化效果前后对比：http://kaijun.wang/download/performance.pdf\n1. 独立设计全新的架构与业务实现，并用go重新实现，替换 python 版本\n2. 更改并发模型,优化 SQL,提高消费速率，高峰期消息消费速度得到指数级提升\n3. 接入Envoy，解决 K8s的L4负载均衡的问题，并提供流量控制功能\n4. 重新设计数据库结构，解决连接数过多，数据量过大查询缓慢的问题\n5. 加入日志，业务打点，trace 等监控，方便后期预警，排错\n6. Pod 数量降低 70%，高峰期接口延迟从 400ms 降低到 150\n7. 新老系统灰度迁移\n8. 维护老系统等待迁徙到新系统"
+        },
+        {
+            "project_name": "众包即时配送系统",
+            "project_role": "核心开发者",
+            "project_time": "饿了么",
+            "project_desc": "饿了么众包骑手交易与管理平台的相关功能开发",
+            "project_content": "\n1. 业务需求开发，包括订单交易，骑手订单分配，骑手管理等等\n2. 钱包模块重写，分3阶段去除积分系统，①前端部分去除积分的显示，后台积分全部按照0计算，差值部分直接加算在金额上，从逻辑上去除积分②随时间推移，不再有新积分的产生后，有系统统一讲积分转换为金额③待业务处理完毕后，下线相关代码，最终最大限度减少迁移过程在用户的不适感\n3. 对账系统移交清结算组，通过补偿机制，确保最终一致性\n4. 与百度外卖合作，协助他们用 PHP 重写，系统灰度，递进式移交数据与业务"
+        },
+        {
+            "project_name": "信息发布系统",
+            "project_role": "核心开发者",
+            "project_time": "清鹤科技",
+            "project_desc": "在线节目单编辑与下发管理系统",
+            "project_content": "\n1. 信息发布系统的软件开发\n2. 在线编辑节目信息，下发节目信息到终端播放\n3. Office文件到pdf，IMG 文件格式转换\n4. 管理后台开发\n5. FFmpeg 进行视频文件格式转换以支持酒店视频点播\n6. 微信公众号订房系统，微信支付，短信通知等服务\n7. 接入酒店 Erp"
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "1️⃣ 3年Python业务开发经验，3年Golang开发经验（1年业务开发2年SRE运维开发）\n2️⃣ 熟悉各种常用的中间件，第三方平台，并且有自研CI/CD平台的经验\n3️⃣ 独立业务系统的架构设计，部署经验\n4️⃣  1次业务重构经验，1次业务重写经验\n5️⃣ 熟悉Kubernetes跟Docker的原理与网络\n6️⃣ 基于Prometheus，Kubernetes，Istio，云平台等的二次开发\n"
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
+}
