@@ -145,7 +145,7 @@
             "project_name": "福里斯",
             "project_role": "核心开发者",
             "project_time": "福里斯",
-            "project_desc": "1. Future Team内部的Ci/CD跟监控\n2.区块链交易后端接口\n",
+            "project_desc": "1.区块链交易后端接口\n 2.Future Team内部的Ci/CD跟监控\n",
             "project_content": "\n1. Solana 链相关交易接口，监听block中用户相关的transaction并给用户推送交易通知\n2. 编写公司内部统一的脚手架库ncw-x，提供统一的http，log，web，DB等等公共库的初始化，管理，指标搜集等\n3.  基于CircleCI配置开发所用的CI环境，自定义docker image打包跟推送ECR镜像仓库，并部署到不同的环境\n4. 基于New Relic 平台搜集应用跟实例的各种指标并且设置dashboard跟告警（例如QPS,平均响应时间，状态码等指标）\n5.  基于Filebeat搜集日志并推送到Sumo Logic平台，以供开发查询日志\n6.  为Orm, Redis, Gin,Http client等库编写OpenTelemetry的第三方库\n",
             "dataIndex": 0
         },
