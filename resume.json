@@ -145,8 +145,8 @@
             "project_name": "福里斯",
             "project_role": "核心开发者",
             "project_time": "福里斯",
-            "project_desc": "1.区块链交易后端接口\n 2.Future Team内部的Ci/CD跟监控\n",
-            "project_content": "\n1. Solana 链相关交易接口，监听block中用户相关的transaction并给用户推送交易通知\n2. 编写公司内部统一的脚手架库ncw-x，提供统一的http，log，web，DB等等公共库的初始化，管理，指标搜集等\n3.  基于CircleCI配置开发所用的CI环境，自定义docker image打包跟推送ECR镜像仓库，并部署到不同的环境\n4. 基于New Relic 平台搜集应用跟实例的各种指标并且设置dashboard跟告警（例如QPS,平均响应时间，状态码等指标）\n5.  基于Filebeat搜集日志并推送到Sumo Logic平台，以供开发查询日志\n6.  为Orm, Redis, Gin,Http client等库编写OpenTelemetry的第三方库\n",
+            "project_desc": "1️⃣ 区块链交易后端接口\n2️⃣ Future Team内部的Ci/CD跟监控\n",
+            "project_content": "\n1️⃣ Solana 链相关交易接口，监听block中用户相关的transaction并给用户推送交易通知\n2️⃣ 编写公司内部统一的脚手架库ncw-x，提供统一的http，log，web，DB等等公共库的初始化，管理，指标搜集等\n3️⃣ 基于CircleCI配置开发所用的CI环境，自定义docker image打包跟推送ECR镜像仓库，并部署到不同的环境\n4️⃣ 基于New Relic 平台搜集应用跟实例的各种指标并且设置dashboard跟告警（例如QPS,平均响应时间，状态码等指标）\n5️⃣ 基于Filebeat搜集日志并推送到Sumo Logic平台，以供开发查询日志\n6️⃣ 为Orm, Redis, Gin,Http client等库编写OpenTelemetry的第三方库\n",
             "dataIndex": 0
         },
         {
@@ -154,35 +154,40 @@
             "project_role": "核心开发者",
             "project_time": "微盟",
             "project_desc": "基于GO开发的Http代理网关",
-            "project_content": "\n1. 网关管理平台，接受应用上报的路由信息，对路由进行版本控制，在线管理，动态的配置下发路由信 息给网关\n2. 网关可接入多 k8s 集群，对外视为 1 个集群，可就近访问，负载均衡，熔断，自动重试\n3. 网关支持多个子环境路由，方便研发测试同学多分支同时开发测试\n4. 自研网关最主要是要接入 trace 系统 多环境发布系统"
+            "project_content": "\n1️⃣ 网关管理平台，接受应用上报的路由信息，对路由进行版本控制，在线管理，动态的配置下发路由信 息给网关\n2️⃣ 网关可接入多 k8s 集群，对外视为 1 个集群，可就近访问，负载均衡，熔断，自动重试\n3️⃣ 网关支持多个子环境路由，方便研发测试同学多分支同时开发测试\n4️⃣ 自研网关接入 trace 系统 多环境发布系统",
+            "dataIndex": 1
         },
         {
             "project_name": "自研发布平台开发",
             "project_role": "核心开发者",
             "project_time": "微盟",
             "project_desc": "用于开发人员通过网页端，操作应用的打包，发布，路由管理，资源申请等功能",
-            "project_content": "\n1. 作为各种系统 api 前置管理平台，进行权限管理，资源申请后元数据(包括数据库，IP，EC2实例信息，域名，App开发信息等等)的记录，为后期各种功能的集成提供依托 \n2. 基于kubernetes的api 开发内部客制化发布系统，支持在web页面查看pod状况，使用的应用版本，pod操作，路由操作，web terminal等功能 \n3. 基于jenkins打包docker镜像，使用阿里云容器服务存储镜像用于下发部署并将公司的产品逐步从 docker 部署转换到自建 k8s 部署\n4. 逐步将app接入istio，探索service mesh已支持流量管理，灰度，多版本\n5. 维护公司的 ELK 集群"
+            "project_content": "\n1️⃣ 作为各种系统 api 前置管理平台，进行权限管理，资源申请后元数据(包括数据库，IP，EC2实例信息，域名，App开发信息等等)的记录，为后期各种功能的集成提供依托 \n2️⃣ 基于kubernetes的api 开发内部客制化发布系统，支持在web页面查看pod状况，使用的应用版本，pod操作，路由操作，web terminal等功能 \n3️⃣ 基于jenkins打包docker镜像，使用阿里云容器服务存储镜像用于下发部署并将公司的产品逐步从 docker 部署转换到自建 k8s 部署\n4️⃣ 逐步将app接入istio，探索service mesh已支持流量管理，灰度，多版本\n5️⃣ 维护公司的 ELK 集群",
+            "dataIndex": 2
         },
         {
             "project_name": "Performance",
             "project_role": "项目Owner",
             "project_desc": "用户学习数据上传伪实时计算平台",
             "project_time": "英语流利说",
-            "project_content": "\n优化效果前后对比：http://kaijun.wang/download/performance.pdf\n1. 独立设计全新的架构与业务实现，并用go重新实现，替换 python 版本\n2. 更改并发模型,优化 SQL,提高消费速率，高峰期消息消费速度得到指数级提升\n3. 接入Envoy，解决 K8s的L4负载均衡的问题，并提供流量控制功能\n4. 重新设计数据库结构，解决连接数过多，数据量过大查询缓慢的问题\n5. 加入日志，业务打点，trace 等监控，方便后期预警，排错\n6. Pod 数量降低 70%，高峰期接口延迟从 400ms 降低到 150\n7. 新老系统灰度迁移\n8. 维护老系统等待迁徙到新系统"
+            "project_content": "\n优化效果前后对比：http://kaijun.wang/download/performance.pdf\n1️⃣ 独立设计全新的架构与业务实现，并用go重新实现，替换 python 版本\n2️⃣ 更改并发模型,优化 SQL,提高消费速率，高峰期消息消费速度得到指数级提升\n3️⃣ 接入Envoy，解决 K8s的L4负载均衡的问题，并提供流量控制功能\n4️⃣ 重新设计数据库结构，解决连接数过多，数据量过大查询缓慢的问题\n5️⃣ 加入日志，业务打点，trace 等监控，方便后期预警，排错\n6️⃣ Pod 数量降低 70%，高峰期接口延迟从 400ms 降低到 150\n7️⃣ 新老系统灰度迁移\n8️⃣ 维护老系统等待迁徙到新系统",
+            "dataIndex": 3
         },
         {
             "project_name": "众包即时配送系统",
             "project_role": "核心开发者",
             "project_time": "饿了么",
             "project_desc": "饿了么众包骑手交易与管理平台的相关功能开发",
-            "project_content": "\n1. 业务需求开发，包括订单交易，骑手订单分配，骑手管理等等\n2. 钱包模块重写，分3阶段去除积分系统，①前端部分去除积分的显示，后台积分全部按照0计算，差值部分直接加算在金额上，从逻辑上去除积分②随时间推移，不再有新积分的产生后，有系统统一讲积分转换为金额③待业务处理完毕后，下线相关代码，最终最大限度减少迁移过程在用户的不适感\n3. 对账系统移交清结算组，通过补偿机制，确保最终一致性\n4. 与百度外卖合作，协助他们用 PHP 重写，系统灰度，递进式移交数据与业务"
+            "project_content": "\n1️⃣ 业务需求开发，包括订单交易，骑手订单分配，骑手管理等等\n2️⃣ 钱包模块重写，分3阶段去除积分系统，①前端部分去除积分的显示，后台积分全部按照0计算，差值部分直接加算在金额上，从逻辑上去除积分②随时间推移，不再有新积分的产生后，有系统统一讲积分转换为金额③待业务处理完毕后，下线相关代码，最终最大限度减少迁移过程在用户的不适感\n3️⃣ 对账系统移交清结算组，通过补偿机制，确保最终一致性\n4️⃣ 与百度外卖合作，协助他们用 PHP 重写，系统灰度，递进式移交数据与业务",
+            "dataIndex": 4
         },
         {
             "project_name": "信息发布系统",
             "project_role": "核心开发者",
             "project_time": "清鹤科技",
             "project_desc": "在线节目单编辑与下发管理系统",
-            "project_content": "\n1. 信息发布系统的软件开发\n2. 在线编辑节目信息，下发节目信息到终端播放\n3. Office文件到pdf，IMG 文件格式转换\n4. 管理后台开发\n5. FFmpeg 进行视频文件格式转换以支持酒店视频点播\n6. 微信公众号订房系统，微信支付，短信通知等服务\n7. 接入酒店 Erp"
+            "project_content": "\n1️⃣ 信息发布系统的软件开发\n2️⃣ 在线编辑节目信息，下发节目信息到终端播放\n3️⃣ Office文件到pdf，IMG 文件格式转换\n4️⃣ 管理后台开发\n5️⃣ FFmpeg 进行视频文件格式转换以支持酒店视频点播\n6️⃣ 微信公众号订房系统，微信支付，短信通知等服务\n7️⃣ 接入酒店 Erp",
+            "dataIndex": 5
         }
     ],
     "workList": [],
