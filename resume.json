@@ -187,7 +187,7 @@
     ],
     "workList": [],
     "aboutme": {
-        "aboutme_desc": "1️⃣ 3年Python业务开发经验，3年Golang开发经验（1年业务开发2年SRE运维开发）\n2️⃣ 熟悉各种常用的中间件，第三方平台，并且有自研CI/CD平台的经验\n3️⃣ 独立业务系统的架构设计，部署经验\n4️⃣  1次业务重构经验，1次业务重写经验\n5️⃣ 熟悉Kubernetes跟Docker的原理与网络\n6️⃣ 基于Prometheus，Kubernetes，Istio，云平台等的二次开发\n"
+        "aboutme_desc": "1️⃣ 3年Python业务开发经验，4年Golang开发经验（1年业务开发3年SRE运维开发）\n2️⃣ 熟悉各种常用的中间件，第三方平台，并且有自研CI/CD平台的经验\n3️⃣ 独立业务系统的架构设计，部署经验\n4️⃣  1次业务重构经验，1次业务重写经验\n5️⃣ 熟悉Kubernetes跟Docker的原理与网络\n6️⃣ 基于Prometheus，Kubernetes，Istio，云平台等的二次开发\n"
     },
     "theme": {
         "color": "#2f5785",
