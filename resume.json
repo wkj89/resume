@@ -33,24 +33,7 @@
             "dataIndex": 0
         }
     ],
-    "awardList": [
-        {
-            "award_info": "英语 CET6",
-            "award_time": "2015"
-        },
-        {
-            "award_info": "蚂蚁近卫军 卓越个人奖",
-            "award_time": "2018.09"
-        },
-        {
-            "award_info": "前端练习生 可视化讲师",
-            "award_time": "2020.10"
-        },
-        {
-            "award_info": "前端早早聊 分享 “如何构思和开发开箱即用的可视化图表库 G2Plot”",
-            "award_time": "2021.07"
-        }
-    ],
+    "awardList": [],
     "workExpList": [
         {
             "company_name": "福里斯（Crypto.com）",
